@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<title> React Dnd </title>
+</head>
+
+<body>
+<div>
+  <div class="col-md-3 col-sm-3">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Drag From Here</h3>
+        
+      </div>
+      <div class="panel-body">
+        <ul class="list-group">
+          <li draggable="true" class="list-group-item ">div</li>
+          <li draggable="true" class=" list-group-item ">button</li>
+          <li draggable="true" class="list-group-item ">input</li>
+          <li draggable="true" class="list-group-item ">textarea</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-9 col-sm-9">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Drop in Container Below</h3>
+        <button id="clear">Clear Canvas</button>
+      </div>
+      <div class="panel-body dropContainer">
+        <div id='dropZone' class="dropzone">
+          <div id="innerDropZone" class="innerDropZone"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
